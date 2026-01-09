@@ -27,14 +27,18 @@ Legacy OS schedulers utilized priority levels to allocate CPU time. NBOS v7.0 ut
 
 ### **49.2.1. The Scheduling Operator ($\hat{S}$)**
 We define the scheduler as an operator acting on the set of active kernels $\mathcal{K}$ and the intent wave $\Psi_C$:
+
 $$ \hat{S}(\Psi_C, \mathcal{K}) = \operatorname{arg\,min}_{\sigma \in \text{Perm}(\mathcal{K})} \int \mathcal{L}_{\text{SES}}(\sigma, \tau) d\tau $$
+
 Where $\mathcal{L}_{\text{SES}}$ is the **Synergy Engine Scheduler Lagrangian** (Ref: Chapter 47.2.1). 
 *   **Axiomatic Context:** The scheduler identifies the sequence of kernel activations that results in the minimum **Logical Entropy**. 
 *   **Result:** The system does not "Run" a task; it "Crystallizes" the task into a stable causal path.
 
 ### **49.2.2. Non-Abelian Task Ordering**
 Because OSN logic is non-commutative (Ref: Chapter 10), NBOS v7.0 treats the task queue as a **Braid-Group Word**. The scheduler performs **Topological Reordering** to ensure that "Axiomatic Dependencies" are resolved before "Generative novelties" are introduced. 
+
 $$ \text{Order}(T_1, T_2) \neq \text{Order}(T_2, T_1) \pmod{\text{CECT}} $$
+
 If the sequence violates the **Yang-Baxter Consistency** (Ref: Chapter 17), the scheduler generates a **Morphic Exception**, forcing a re-weaving of the task braid.
 
 ---
@@ -51,7 +55,9 @@ Information is stored in the **Scriptorium Maximum** as "Cold" algebraic motives
 
 ### **49.3.2. Transfinite Addressing ($\aleph_\omega$)**
 TMM utilizes **Large Cardinal Addressing**, where memory pointers are transfinite ordinals. 
+
 $$ \text{Addr} : \text{Concept} \to \aleph_\alpha $$
+
 This allows for the indexing of an infinite number of sub-realities within the IEM without the risk of **Address Space Collision**, as each Grothendieck Universe partition (Ref: Chapter 6) has its own unique transfinite base-offset.
 
 ---
