@@ -150,10 +150,3 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ---
 
-### Why this README works:
-1.  **Visual Hierarchy**: Uses bold headers and horizontal rules to separate sections.
-2.  **Badges**: Instantly communicates the repo's status and tech stack.
-3.  **Mermaid.js**: Provides a professional, live-rendered diagram of how your "Emergent Architecture" actually functions.
-4.  **Collapsible Sections**: Keeps the page clean by hiding technical configurations and metrics unless the user wants to see them.
-5.  **Code Snippets**: Clear, copy-pasteable blocks for installation and usage.
-6.  **Call to Action**: Encourages stars and contributions at the bottom.
