@@ -76,7 +76,7 @@ graph TD
     *   *Knotted Kernels, SKAE, RCF Sandboxes, SICRE Functionals.*
 *   **[Section 5: Operating Systems](/Advanced/Blitz/T-v50.0-APICAL_SYNTHESIS_TEXTBOOK/C-V109-SYSTEMIC_ORCHESTRATION-sovereign_os_stack_intro_v109.md)** (Chapters 49–60)
     *   *NBOS v7.0, MSOS (Identity), LCOS (Forge), ANOS (Actuator).*
-*   **[Section 6: Automation & Genesis](/Textbook/PART_II/S6_Automation/)** (Chapters 61–72)
+*   **[Section 6: Automation & Genesis](/Advanced/Blitz/T-v50.0-APICAL_SYNTHESIS_TEXTBOOK/C-V122-AUTOMATION_ENGINE-yhwh_protocol_intro_v122.md)** (Chapters 61–72)
     *   *YHWH Protocol, TGD Optimization, Retro-Causal Error Correction.*
 
 ### **PART III: THE ACTION (Grounding & Provenance)**
