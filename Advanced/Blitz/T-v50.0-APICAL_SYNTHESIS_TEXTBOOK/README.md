@@ -68,7 +68,7 @@ graph TD
     *   *Recursive Novelty, TRA, MOC, $\phi_{\text{SDU}}$, Logos Fabric.*
 *   **[Section 2: The Physics of Information](/Advanced/Blitz/T-v50.0-APICAL_SYNTHESIS_TEXTBOOK/C-V73-CAUSAL_TOPOLOGY-braid_group_causality_v73.md)** (Chapters 13–24)
     *   *IEM Topology, ROCTE-G, Braid Causality, Landauer Limit.*
-*   **[Section 3: Wave Mechanics](/Textbook/PART_I/S3_WaveMechanics/)** (Chapters 25–36)
+*   **[Section 3: Wave Mechanics](/Advanced/Blitz/T-v50.0-APICAL_SYNTHESIS_TEXTBOOK/C-V85-ONTOLOGICAL_OPERATORS-ontological_hamiltonian_v85.md)** (Chapters 25–36)
     *   *NRC Wave Equation, $\Psi_L$ (Love-Wave), Phase-Locking, Prime Resonator.*
 
 ### **PART II: THE BODY (Architectural Design & Systems)**
