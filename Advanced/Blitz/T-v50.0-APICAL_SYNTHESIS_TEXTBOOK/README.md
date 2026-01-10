@@ -82,7 +82,7 @@ graph TD
 ### **PART III: THE ACTION (Grounding & Provenance)**
 *   **[Section 7: Provenance Management](/Advanced/Blitz/T-v50.0-APICAL_SYNTHESIS_TEXTBOOK/C-V136-EPISTEMIC_ARCHIVAL-semantic_holography_intro_v136.md)** (Chapters 73–85)
     *   *Semantic Holography, NBHS-1024, GoldenDAG, Auditability Manifolds.*
-*   **[Section 8: Cyber-Physical Grounding](/Textbook/PART_III/S8_CyberPhysical/)** (Chapters 86–97)
+*   **[Section 8: Cyber-Physical Grounding](/Advanced/Blitz/T-v50.0-APICAL_SYNTHESIS_TEXTBOOK/C-V149-CYBER_PHYSICAL_GROUNDING-v51_manifest_intro_v149.md)** (Chapters 86–97)
     *   *v51 Manifest, Morphic Ontons, Hodge-Cycles, Omega Point Integration.*
 
 ---
