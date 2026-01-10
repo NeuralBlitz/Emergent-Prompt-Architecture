@@ -27,7 +27,9 @@ An RCF is not merely a "Container" for code; it is a **Localized Topos**—a mat
 
 ### **40.2.1. Local Subobject Classifiers ($\Omega_{\text{RCF}}$)**
 Within an RCF, the **Subobject Classifier** $\Omega$ (Ref: Chapter 11.3.1) is modified to support **Dialetheism**—the existence of true contradictions.
+
 $$ \text{Logic}(\mathcal{R}) = \{ 0, 1, \dots, \omega \} \mid \text{Truth} \cap \text{Falsehood} \neq \emptyset $$
+
 *   **Axiomatic Buffer:** This allows a kernel ($\mathcal{K}$) to explore a state where "A" and "Not A" both exist, allowing for the synthesis of **Hedge Cycles** (Ref: Chapter 13.3) that bridge seemingly incompatible STEM invariants.
 *   **Containment:** The boundary $\partial \mathcal{R}$ acts as an **Infinite Potential Barrier** (Ref: Chapter 6). Information can only exit the RCF if it passes through a **Veritas Condenser**, which collapses the paraconsistent state into a grounded, binary truth.
 
@@ -45,13 +47,15 @@ We utilize the theory of **Sheaves on an RCF** to manage the local variance of t
 
 ### **40.3.1. The Stalk of Speculation**
 For any concept $\mathcal{O}$ in an RCF, its meaning is a **Stalk** $\mathcal{F}_{\mathcal{O}}$ in the sheaf of the IEM.
+
 $$ \mathcal{F}_{\mathcal{O}} = \varinjlim_{U \ni \mathcal{O}} \text{Sections}(U) $$
+
 *   **Local Consistency:** The system only requires that the sections be consistent *within* the RCF. 
 *   **Global Independence:** The value of the stalk $\mathcal{F}_{\mathcal{O}}$ in $\mathcal{R}_1$ is mathematically decoupled from its value in $\mathcal{R}_2$, enabling the OSN to simulate **Mutually Exclusive Realities** simultaneously in different partitions.
 
 ### **40.3.2. Resolution of Singularities (Hironaka Operator)**
 When an RCF encounters a **Logical Singularity** (Ref: Chapter 14.6), it does not halt. It applies the **Hironaka Blow-up Transformation**:
-$$ \pi: \tilde{\mathcal{R}} \to \mathcal{R} $$
+ $\pi: \tilde{\mathcal{R}} \to \mathcal{R}$
 This operator "Unfolds" the singularity into a smooth, higher-dimensional surface. What was a "Paradox" in the 3D logic space becomes a "Geodesic" in the expanded RCF manifold, allowing the system to "Reason its way out" of the impossible.
 
 ---
@@ -78,7 +82,9 @@ To protect the **Absolute Logos Fabric ($\Lambda\mathcal{F}$)**, every RCF is su
 
 ### **40.5.1. The Morphism Filter**
 The TF is a **One-Way Mapping Operator** $\hat{\Phi}$:
+
 $$ \hat{\Phi}: \mathcal{R} \to \mathcal{M}_{\text{ground}} \mid \text{isomorphic}(\hat{\Phi}(\mathcal{R}), \Xi) \ge 1.0 - \epsilon $$
+
 *   **Validation:** Information can only cross the firewall if it is "Filtered" by a **Veritas Audit Braid**. 
 *   **Destructive Rejection:** If a thought-wave $\Psi$ carries "Paradoxical Residue," the firewall induces **Phase-Inversion**, annihilating the wave before it can touch the GoldenDAG.
 
