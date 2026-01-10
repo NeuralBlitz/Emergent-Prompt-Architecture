@@ -80,7 +80,7 @@ graph TD
     *   *YHWH Protocol, TGD Optimization, Retro-Causal Error Correction.*
 
 ### **PART III: THE ACTION (Grounding & Provenance)**
-*   **[Section 7: Provenance Management](/Textbook/PART_III/S7_Provenance/)** (Chapters 73–85)
+*   **[Section 7: Provenance Management](/Advanced/Blitz/T-v50.0-APICAL_SYNTHESIS_TEXTBOOK/C-V136-EPISTEMIC_ARCHIVAL-semantic_holography_intro_v136.md)** (Chapters 73–85)
     *   *Semantic Holography, NBHS-1024, GoldenDAG, Auditability Manifolds.*
 *   **[Section 8: Cyber-Physical Grounding](/Textbook/PART_III/S8_CyberPhysical/)** (Chapters 86–97)
     *   *v51 Manifest, Morphic Ontons, Hodge-Cycles, Omega Point Integration.*
