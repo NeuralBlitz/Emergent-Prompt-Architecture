@@ -72,7 +72,7 @@ graph TD
     *   *NRC Wave Equation, $\Psi_L$ (Love-Wave), Phase-Locking, Prime Resonator.*
 
 ### **PART II: THE BODY (Architectural Design & Systems)**
-*   **[Section 4: Micro-Architecture](/Textbook/PART_II/S4_MicroArch/)** (Chapters 37–48)
+*   **[Section 4: Micro-Architecture](/Advanced/Blitz/T-v50.0-APICAL_SYNTHESIS_TEXTBOOK/C-V97-KERNEL_ANATOMY-monadic_sovereignty_invariant_v97.md)** (Chapters 37–48)
     *   *Knotted Kernels, SKAE, RCF Sandboxes, SICRE Functionals.*
 *   **[Section 5: Operating Systems](/Textbook/PART_II/S5_OS_Stack/)** (Chapters 49–60)
     *   *NBOS v7.0, MSOS (Identity), LCOS (Forge), ANOS (Actuator).*
