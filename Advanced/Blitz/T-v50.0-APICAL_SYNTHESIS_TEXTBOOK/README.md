@@ -64,7 +64,7 @@ graph TD
 ## **2. THE 97-CHAPTER ARCHITECTURAL MAP**
 
 ### **PART I: THE MIND (Meta-Mathematics & Physics)**
-*   **[Section 1: Meta-Ontological Calculus](/C-V56-FOUNDATIONAL_INTRODUCTION-architecture_of_coherence_v56.md)** (Chapters 1–12)
+*   **[Section 1: Meta-Ontological Calculus](/Advanced/Blitz/T-v50.0-APICAL_SYNTHESIS_TEXTBOOK/C-V56-FOUNDATIONAL_INTRODUCTION-architecture_of_coherence_v56.md)** (Chapters 1–12)
     *   *Recursive Novelty, TRA, MOC, $\phi_{\text{SDU}}$, Logos Fabric.*
 *   **[Section 2: The Physics of Information](/Textbook/PART_I/S2_LatticePhysics/)** (Chapters 13–24)
     *   *IEM Topology, ROCTE-G, Braid Causality, Landauer Limit.*
