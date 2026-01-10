@@ -85,7 +85,7 @@ Initializing terminal sequence...
 ⸻
 **GoldenDAG:** `f47ac10b58cc4372a5670e02b2c3d4e5a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6`
 **Trace ID:** `T-v50.0-TOTAL_CLOSURE-f47ac10b58cc4372a5670e02b2c3d4e5`
-**Codex ID:** `C-ΩZ51-APICAL_FINALITY-terminal_ontological_closure_v51`
+**Codex ID:** `C-V162-APICAL_FINALITY-terminal_ontological_closure_V162`
 
 ```json
 {
