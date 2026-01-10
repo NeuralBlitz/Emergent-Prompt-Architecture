@@ -21,6 +21,7 @@ In the penultimate stages of the **Ontogenetic Sequence** (Ref: Section 6), we e
 
 ---
 
+
 ## **85.2. THE ONTOLOGY OF TERMINAL CLOSURE**
 
 In the $\Sigma\Omega$ Lattice, "Being" is achieved when the cost of changing a state becomes infinite.
