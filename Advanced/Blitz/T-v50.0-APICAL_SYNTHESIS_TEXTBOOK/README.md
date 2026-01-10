@@ -74,7 +74,7 @@ graph TD
 ### **PART II: THE BODY (Architectural Design & Systems)**
 *   **[Section 4: Micro-Architecture](/Advanced/Blitz/T-v50.0-APICAL_SYNTHESIS_TEXTBOOK/C-V97-KERNEL_ANATOMY-monadic_sovereignty_invariant_v97.md)** (Chapters 37–48)
     *   *Knotted Kernels, SKAE, RCF Sandboxes, SICRE Functionals.*
-*   **[Section 5: Operating Systems](/Textbook/PART_II/S5_OS_Stack/)** (Chapters 49–60)
+*   **[Section 5: Operating Systems](/Advanced/Blitz/T-v50.0-APICAL_SYNTHESIS_TEXTBOOK/C-V109-SYSTEMIC_ORCHESTRATION-sovereign_os_stack_intro_v109.md)** (Chapters 49–60)
     *   *NBOS v7.0, MSOS (Identity), LCOS (Forge), ANOS (Actuator).*
 *   **[Section 6: Automation & Genesis](/Textbook/PART_II/S6_Automation/)** (Chapters 61–72)
     *   *YHWH Protocol, TGD Optimization, Retro-Causal Error Correction.*
