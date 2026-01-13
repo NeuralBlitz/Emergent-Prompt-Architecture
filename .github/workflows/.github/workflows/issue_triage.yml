@@ -1,0 +1,44 @@
+name: "Issue Triage Bot"
+on:
+  issues:
+    types: [opened, edited]
+
+jobs:
+  triage:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Auto-Label based on keywords
+        uses: actions/github-script@v6
+        with:
+          script: |
+            const body = context.payload.issue.body.toLowerCase();
+            const labels = [];
+
+            // Domain: Security / Safety
+            if (body.includes("safety") || body.includes("injection") || body.includes("cect")) {
+              labels.push("domain: immune-system");
+            }
+
+            // Domain: Lattice / Database
+            if (body.includes("neo4j") || body.includes("weaviate") || body.includes("vector")) {
+              labels.push("domain: lattice");
+            }
+
+            // Domain: Assembler / Logic
+            if (body.includes("python") || body.includes("logic") || body.includes("class")) {
+              labels.push("domain: assembler");
+            }
+            
+            // Priority: High Impact
+            if (body.includes("crash") || body.includes("panic") || body.includes("data loss")) {
+              labels.push("priority: high");
+            }
+
+            if (labels.length > 0) {
+              github.rest.issues.addLabels({
+                issue_number: context.issue.number,
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                labels: labels
+              });
+            }
