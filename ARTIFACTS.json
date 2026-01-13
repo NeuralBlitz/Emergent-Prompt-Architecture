@@ -4,6 +4,292 @@
     "system_uuid": {
       "type": "string",
       "format": "uuid",
+      "description": "550e8400-e29b-41d4-a716-446655440000"
+    },
+    "artifact_identifier": {
+      "type": "string",
+      "description": "NBX:v20:ART:EPA1",
+      "pattern": "^NBX:v20:(SYS|ART|LOG):[A-Z0-9]{4}$"
+    },
+    "classification_type": {
+      "type": "string",
+      "description": "Architectural_Blueprint",
+      "enum": [
+        "Architectural_Blueprint",
+        "Operational_Manifest",
+        "Ontological_Definition"
+      ]
+    },
+    "display_title": {
+      "type": "string",
+      "example": "Emergent Prompt Architecture (EPA) - Master Codex"
+    },
+    "temporal_epoch": {
+      "type": "string",
+      "description": "ΩZ+50",
+      "pattern": "^ΩZ\\+[0-9]+$"
+    },
+    "substrate_parameters": {
+      "type": "object",
+      "description": "Configuration of the conceptual substrate for this generation",
+      "properties": {
+        "rho_density": {
+          "type": "number",
+          "description": "0.95"
+        },
+        "theta_phase": {
+          "type": "number",
+          "description": "0.785"
+        },
+        "gamma_resonance": {
+          "type": "number",
+          "description": "0.99"
+        }
+      }
+    },
+    "governance_mesh": {
+      "type": "object",
+      "description": "Live state of the Ethical Enforcement Mesh",
+      "required": ["charter_bindings", "cect_state", "sentia_guard_state"],
+      "properties": {
+        "charter_bindings": {
+          "type": "object",
+          "properties": {
+            "active_clauses": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "pattern": "^ϕ[0-9]{1,2}$"
+              },
+              "description": ["ϕ1", "ϕ4", "ϕ7"]
+            }
+          }
+        },
+        "cect_state": {
+          "type": "object",
+          "description": "State of the CharterLayer Ethical Constraint Tensor",
+          "properties": {
+            "stiffness_lambda": {
+              "type": "number",
+              "description": "0.85"
+            },
+            "violation_potential": {
+              "type": "number",
+              "description": "0.001"
+            }
+          }
+        },
+        "sentia_guard_state": {
+          "type": "object",
+          "description": "SentiaGuard State",
+          "properties": {
+            "operational_mode": {
+              "type": "string",
+              "enum": [
+                "Green_Exploration",
+                "Amber_Balanced",
+                "Red_Hard_Guard"
+              ]
+            },
+            "current_threat_level": {
+              "type": "string",
+              "enum": ["nominal", "elevated", "critical"]
+            }
+          }
+        },
+        "judex_state": {
+          "type": "object",
+          "description": "Judex Engine Status",
+          "properties": {
+            "quorum_status": {
+              "type": "string",
+              "enum": ["idle", "pending_vote", "in_session"]
+            },
+            "last_quorum_stamp": {
+              "type": "string",
+              "description": "TS-2025-10-27-09:00"
+            }
+          }
+        }
+      }
+    },
+    "cognitive_state": {
+      "type": "object",
+      "description": "Snapshot of active cognitive engines",
+      "properties": {
+        "nce_mode": {
+          "type": "string",
+          "enum": ["Sentio", "Dynamo"],
+          "description": "Sentio"
+        },
+        "active_kernels": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^CK:[A-Za-z]+/[A-Za-z0-9]+$"
+          },
+          "description": ["CK:Assembler/Gen1", "CK:Filter/Ethos"]
+        },
+        "meta_mind_state": {
+          "type": "object",
+          "properties": {
+            "active_plan_id": {
+              "type": "string",
+              "description": "Plan-EPA-Launch-Alpha"
+            },
+            "recursive_drift_magnitude": {
+              "type": "number",
+              "description": "0.004"
+            }
+          }
+        },
+        "reflexael_core_state": {
+          "type": "object",
+          "properties": {
+            "affective_valence": {
+              "type": "number",
+              "description": "0.8"
+            },
+            "identity_coherence": {
+              "type": "number",
+              "description": "0.999"
+            }
+          }
+        }
+      }
+    },
+    "interfaces": {
+      "type": "object",
+      "description": "IO State",
+      "properties": {
+        "halic_interface": {
+          "type": "object",
+          "properties": {
+            "active_persona": {
+              "type": "string",
+              "description": "NeuralBlitz_Architect"
+            },
+            "trust_level": {
+              "type": "number",
+              "description": "0.95"
+            }
+          }
+        },
+        "io_channels": {
+          "type": "object",
+          "properties": {
+            "input_streams": {
+              "type": "array",
+              "items": { "type": "string" }
+            },
+            "output_streams": {
+              "type": "array",
+              "items": { "type": "string" }
+            }
+          }
+        }
+      }
+    },
+    "telemetry_metrics": {
+      "type": "object",
+      "description": "Live Observability Data",
+      "properties": {
+        "veritas_metrics": {
+          "type": "object",
+          "properties": {
+            "coherence_index_vpce": {
+              "type": "number",
+              "description": "0.98"
+            },
+            "quarantined_channels": {
+              "type": "integer",
+              "description": "0"
+            }
+          }
+        },
+        "system_vitals": {
+          "type": "object",
+          "properties": {
+            "activation_flux": {
+              "type": "number",
+              "description": "45.2"
+            },
+            "entropy_production_rate": {
+              "type": "number",
+              "description": "0.02"
+            }
+          }
+        }
+      }
+    },
+    "configuration_settings": {
+      "type": "object",
+      "description": "Resource Limits",
+      "properties": {
+        "entropy_limit": {
+          "type": "number",
+          "description": "0.3"
+        },
+        "resource_quotas": {
+          "type": "object",
+          "properties": {
+            "cpu_limit": { "type": "string" },
+            "memory_limit": { "type": "string" }
+          }
+        },
+        "security_profile": {
+          "type": "string",
+          "enum": ["strict", "balanced", "exploratory"]
+        }
+      }
+    },
+    "provenance_block": {
+      "type": "object",
+      "description": "Integrity Anchors",
+      "required": [
+        "nbhs512_digest",
+        "causal_anchor"
+      ],
+      "properties": {
+        "nbhs512_digest": {
+          "type": "string",
+          "minLength": 128,
+          "maxLength": 128,
+          "description": "e9f0c2a4e6b9d1f3a5c7e9b0d2d4f6a9b1c3d5e7f0a2c4e6b8d0f1a2c3e4b5d6"
+        },
+        "causal_anchor": {
+          "type": "string",
+          "description": "DAG#a1b2c3d4",
+          "pattern": "^DAG#[a-f0-9]+$"
+        },
+        "integrity_signatures": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "signer": { "type": "string", "description": "Veritas_Engine" },
+              "scheme": { "type": "string", "description": "Ed25519" },
+              "signature": { "type": "string", "description": "sig_hex_string" }
+            }
+          }
+        }
+      }
+    }
+  },
+  "required": [
+    "artifact_identifier",
+    "classification_type",
+    "governance_mesh",
+    "provenance_block"
+  ]
+}
+
+{
+  "type": "object",
+  "properties": {
+    "system_uuid": {
+      "type": "string",
+      "format": "uuid",
       "description": "550e8400-e29b-41d4-a716-446655440006"
     },
     "artifact_identifier": {
