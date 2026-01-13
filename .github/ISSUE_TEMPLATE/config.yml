@@ -1,0 +1,9 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 🔐 Security Vulnerability
+    url: https://github.com/your-username/emergent-prompt-architecture/blob/main/SECURITY.md
+    about: Please DO NOT file public issues for security vulnerabilities. Click here for our disclosure policy.
+  - name: 💬 Community Chat
+    url: https://discord.gg/your-discord-link
+    about: Ask questions and discuss with the community in real-time.
+
