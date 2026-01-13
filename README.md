@@ -1,6 +1,7 @@
+<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/ae8ea391-6432-460f-a303-b56a7913dc2d" />
 
 
-# 🌌 Emergent Prompt Architecture (EPA)
+🌌 **Emergent Prompt Architecture** *(EPA)*
 
 > **"From Static Scripts to Dynamic Cognition."**
 
