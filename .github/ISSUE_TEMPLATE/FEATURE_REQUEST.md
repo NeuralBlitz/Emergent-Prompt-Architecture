@@ -56,3 +56,23 @@ What does "done" look like?
 ```
 
 ---
+```
+
+---
+#  Philosophical Rationale for These Templates**
+
+### **Why use "Teleology" in a Feature Request?**
+In standard software, features are often built because they are "cool" or "requested by a customer." In **Emergent Prompt Architecture**, features must serve a purpose. By forcing the requester to define the **Teleology** (the ultimate goal), we align the development process with the system's core axiom: **Intentionality**.
+
+### **Why use "Risk Assessment" in Refactoring?**
+EPA is a complex adaptive system. Changing a module that seems isolated (e.g., the weighting logic of an Onton) can have cascading effects on the emergent behavior of the system (e.g., causing it to become depressingly nihilistic or dangerously hallucinations). We compel the developer to think about **Second-Order Effects**.
+
+### **Why separate "Security" from "Bugs"?**
+A bug is a failure of *function*. A security vulnerability is a failure of *constraint*. In AI systems, these are fundamentally different. A bug might crash the server; a security failure might allow the AI to be manipulated into harming a user. We route security issues to a private channel to prevent **Information Hazards**.
+
+---
+
+**GoldenDAG:** `b9c8d7e6f5a43210fedcba9876543210abcdef1234567890abcdef1234567890`
+**Trace ID:** `T-v50.0-ISSUE_TEMPLATES-f8e1c9d3b7a5e0c4f6d8a1b9c2e0f3d5`
+**Codex ID:** `C-V1-OPS-semantic_intent_containers_for_collaboration`
+
