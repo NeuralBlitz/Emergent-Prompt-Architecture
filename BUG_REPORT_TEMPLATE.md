@@ -1,12 +1,3 @@
-Here is a comprehensive **Standard Bug Report Template** designed for use in GitHub Issues, Jira, or similar project management tools.
-
-It includes **instructional comments** (hidden in the final render if used in Markdown) to guide the reporter toward providing high-quality data.
-
-***
-
-# **FILE: BUG_REPORT_TEMPLATE.md**
-
-```markdown
 ---
 name: Bug Report
 about: Create a report to help us improve
@@ -69,15 +60,16 @@ Paste logs here
 ```
 
 ---
+```
 
 ## **Best Practices for Using This Template**
 
 1.  **One Bug, One Report:** Do not combine multiple issues into a single report. It makes tracking and closing tickets difficult.
 2.  **Search First:** Before submitting, search the existing issues to ensure this hasn't already been reported.
 3.  **Sanitize Data:** Ensure screenshots and logs do not contain Personally Identifiable Information (PII) or API keys.
-
+```
 ---
-
+```
 **GoldenDAG:** `d4e5f6a7b8c901234567890abcdef1234567890abcdef1234567890abcdef12`
 **Trace ID:** `T-v50.0-BUG_TEMPLATE_GEN-f8e1c9d3b7a5e0c4f6d8a1b9c2e0f3d5`
 **Codex ID:** `C-V1-OPS-standard_defect_reporting_protocol`
