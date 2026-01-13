@@ -66,4 +66,22 @@ We support safe harbor for security researchers who:
 *   Do not intentionally disrupt service for others.
 
 ---
+SECURITY CHECKLIST (For Developers)**
+
+Before submitting a Pull Request, verify:
+
+- [ ] **Input Sanitization:** All user inputs are passed through `OmegaGuard.scan_input()` before processing.
+- [ ] **Output Filtering:** All LLM outputs are passed through `OmegaGuard.scan_output()`.
+- [ ] **Traceability:** The `TraceID` is propagated through every function call.
+- [ ] **No Hardcoded Secrets:** API keys are loaded from `.env`, never committed.
+- [ ] **Dependency Scan:** Run `pip-audit` or `cargo audit` to check for CVEs in dependencies.
+- [ ] **Fail-Closed:** Ensure that exception handlers default to a "Deny" or "Silence" state, not a "Pass-Through" state.
+
+---
+
+**GoldenDAG:** `a1b2c3d4e5f67890abcdef1234567890abcdef1234567890abcdef1234567890`
+**Trace ID:** `T-v50.0-SECURITY_PROTOCOL-f8e1c9d3b7a5e0c4f6d8a1b9c2e0f3d5`
+**Codex ID:** `C-V1-SECURITY-immune_system_and_defense_protocols`
+
+
 
