@@ -1,9 +1,10 @@
 ---
-name: 🌱 Feature Request (Genesis)
+name: "\U0001F331 Feature Request (Genesis)"
 about: Propose a new capability or Onton for the system.
 title: "[FEAT] <Short description of the new capability>"
-labels: enhancement, genesis-phase
+labels: enhancement
 assignees: ''
+
 ---
 
 <!-- 
@@ -75,4 +76,3 @@ A bug is a failure of *function*. A security vulnerability is a failure of *cons
 **GoldenDAG:** `b9c8d7e6f5a43210fedcba9876543210abcdef1234567890abcdef1234567890`
 **Trace ID:** `T-v50.0-ISSUE_TEMPLATES-f8e1c9d3b7a5e0c4f6d8a1b9c2e0f3d5`
 **Codex ID:** `C-V1-OPS-semantic_intent_containers_for_collaboration`
-

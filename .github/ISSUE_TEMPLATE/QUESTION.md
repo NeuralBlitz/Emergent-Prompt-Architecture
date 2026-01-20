@@ -1,9 +1,10 @@
 ---
-name: 💬 Question / Discussion (Dialectic)
+name: "\U0001F4AC Question / Discussion (Dialectic)"
 about: Ask a question about the architecture or philosophy of EPA.
 title: "[Q] <Your question here>"
-labels: question, discussion
+labels: question
 assignees: ''
+
 ---
 
 <!-- 
@@ -30,4 +31,3 @@ What have you already read? (e.g., "I checked the Whitepaper but didn't understa
 ```
 
 ---
-

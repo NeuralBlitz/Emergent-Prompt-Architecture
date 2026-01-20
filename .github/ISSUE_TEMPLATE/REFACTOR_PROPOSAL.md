@@ -1,9 +1,10 @@
 ---
-name: ✂️ Refactor Proposal (Pruning)
+name: "✂️ Refactor Proposal (Pruning)"
 about: Propose a structural change to improve code health or performance.
 title: "[REFACTOR] <Module/Component to be improved>"
-labels: refactor, maintenance
+labels: ''
 assignees: ''
+
 ---
 
 <!-- 
@@ -42,4 +43,3 @@ Which systems rely on this code? What specific tests must be run to ensure safet
 ```
 
 ---
-
