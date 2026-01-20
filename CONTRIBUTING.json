@@ -1,4 +1,3 @@
-```json
 {
   "type": "object",
   "properties": {
@@ -284,4 +283,3 @@
     "provenance_block"
   ]
 }
-```
