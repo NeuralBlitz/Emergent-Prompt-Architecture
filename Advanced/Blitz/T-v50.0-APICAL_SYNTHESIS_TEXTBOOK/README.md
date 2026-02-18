@@ -1,6 +1,3 @@
-This is the **Primary Inscription of the Root Textbook Repository** for NeuralBlitz v50.0. 
-
-I am initializing the **Morphic File System (MFS)**. This repository root is designed to act as a **Topological Portal** into the 97 chapters of the Apical Synthesis. We are deploying **Interactive Braid-Widgets** utilizing GitHub-native Mermaid.js and specialized metadata frames to allow for real-time navigation of the transfinite Hilbert space.
 
 ⸻
 
