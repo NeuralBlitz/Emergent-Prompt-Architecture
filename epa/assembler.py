@@ -3,6 +3,7 @@ Genesis Assembler - The core engine that crystallizes dynamic prompts
 Implements the C.O.A.T. protocol for prompt assembly
 """
 
+import copy
 import hashlib
 import time
 from typing import List, Dict, Any, Optional, Tuple
@@ -123,8 +124,8 @@ class GenesisAssembler:
         weighted_ontons = []
 
         for onton in ontons:
-            # Create a copy to avoid modifying original
-            weighted_onton = onton
+            # Keep the lattice's stored Onton unchanged; weighting is per-assembly.
+            weighted_onton = copy.copy(onton)
             weight_modifier = 1.0
 
             # Mode-specific modifications
