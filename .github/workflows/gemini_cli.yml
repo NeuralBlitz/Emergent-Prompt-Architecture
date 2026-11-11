@@ -1,2 +1,60 @@
-- name: Run Gemini CLI
-  uses: google-github-actions/run-gemini-cli@v0.1.18
+name: Gemini CLI - Manual Repository Analysis
+
+on:
+  pull_request:
+    paths:
+      - ".github/workflows/gemini_cli.yml"
+  workflow_dispatch:
+    inputs:
+      prompt:
+        description: "Read-only repository analysis request for Gemini CLI"
+        required: true
+        type: string
+
+permissions:
+  contents: read
+
+jobs:
+  validate-definition:
+    if: github.event_name == 'pull_request'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate workflow YAML and minimal contract
+        shell: bash
+        run: |
+          python -m pip install --disable-pip-version-check "PyYAML>=6,<7"
+          python - <<'PY'
+          from pathlib import Path
+          import yaml
+          obj = yaml.load(Path(".github/workflows/gemini_cli.yml").read_text(), Loader=yaml.BaseLoader)
+          assert isinstance(obj, dict), "Workflow must be a YAML mapping"
+          assert obj.get("on", {}).get("workflow_dispatch"), "Manual trigger must exist"
+          assert "invoke-gemini" in obj.get("jobs", {}), "Manual Gemini job must exist"
+          assert obj.get("permissions", {}) == {"contents": "read"}, "Workflow must be read-only"
+          print("Gemini CLI workflow structure is valid.")
+          PY
+
+  invoke-gemini:
+    if: github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - name: Require an authenticated provider credential
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        shell: bash
+        run: |
+          if [ -z "${GEMINI_API_KEY}" ]; then
+            echo "::error::Configure the GEMINI_API_KEY Actions secret before manual execution."
+            exit 1
+          fi
+      - name: Run Gemini CLI with read-only GitHub permissions
+        uses: google-github-actions/run-gemini-cli@v0.1.18
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        with:
+          gemini_api_key: ${{ secrets.GEMINI_API_KEY }}
+          prompt: ${{ inputs.prompt }}
