@@ -54,8 +54,8 @@ EPA does not just output text; it "listens" to its own output.
 
 1.  **Clone the Repository**
     ```bash
-    git clone https://github.com/your-username/emergent-prompt-architecture.git
-    cd emergent-prompt-architecture
+    git clone https://github.com/NeuralBlitz/Emergent-Prompt-Architecture.git
+    cd Emergent-Prompt-Architecture
     ```
 
 2.  **Initialize the Environment**
